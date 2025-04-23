@@ -1,3 +1,7 @@
+import Controllers.LibroController;
+import Models.Book;
+import Views.ViewConsole;
+
 public class App {
     public static void main(String[] args) throws Exception {
 
@@ -35,4 +39,6 @@ public class App {
         };
 
     }
+
+    Models.Book bk   = new  Models.Book;
 }
